@@ -20,9 +20,9 @@ fixed = { workspace = true }
 bs58 = "0.5"
 base64 = "0.21.0"
 log = "0.4"
-rand = "0.7"
+rand = "0.8"
 anyhow = "1.0"
-bytes = "1.0"
+bytes = "1.11"
 itertools = "0.10.5"
 
 serde = "1.0"
