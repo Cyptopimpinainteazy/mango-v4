@@ -78,6 +78,7 @@
     "@switchboard-xyz/on-demand": "^1.2.16",
     "@switchboard-xyz/sbv2-lite": "^0.1.6",
     "@switchboard-xyz/solana.js": "^3.2.5",
+    "@vercel/analytics": "^2.0.1",
     "big.js": "^6.1.1",
     "binance-api-node": "^0.12.7",
     "bs58": "^5.0.0",

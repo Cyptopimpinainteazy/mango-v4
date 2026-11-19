@@ -37,6 +37,18 @@ See DEVELOPING.md and FAQ-DEV.md
 - mainnet-beta: 4MangoMjqJ2firMokCjjGgoK8d4MXcrgL7XJaL3w6fVg
 - primary mango group on mainnet-beta: 78b8f4cGCwmZ9ysPFMWLaLTkkaYnUjwMJYStWe5RTSSX
 
+### Vercel documentation site
+
+Vercel serves the static landing page in `docs/` using `vercel.json`, without
+installing SDK dependencies or running the npm package build. The page links to
+the source directories because generated Rust and TypeScript API docs are not
+checked in. Full API documentation generation remains in the `Build Docs`
+GitHub Actions workflow.
+
+Web Analytics uses the script in `docs/index.html` and must also be enabled for
+the Vercel project. The project’s production branch is `dev`; merge deployment
+configuration changes there to preserve them on future automatic deployments.
+
 ### Release
 
 For program deployment, see RELEASING.md.
